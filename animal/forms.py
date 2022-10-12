@@ -7,4 +7,4 @@ from django.forms import fields, models
 class AnimalForm(forms.ModelForm):
     class Meta:
         model = Animal
-        fields = ['nome','data_de_nascimento','idade','raça','espécie']
+        fields = ['nome_pet','data_de_nascimento','idade','raça','espécie']

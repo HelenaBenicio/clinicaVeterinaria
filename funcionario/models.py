@@ -11,3 +11,7 @@ class Funcionario(models.Model):
     rg = models.IntegerField(unique=True)
     telefone = models.CharField(max_length=256)
     email = models.CharField(max_lengh=256)
+
+class Triagem(models.Model):
+    nome_pet = models.CharField(max_length=20),
+    sintomas = models.Charfield(max_length=2000)
